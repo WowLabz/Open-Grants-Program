@@ -169,8 +169,8 @@ The main deliverable for this milestone is to facilitate the creation of a proje
 ### **Milestone 2**
 
 * **Estimated duration:** 1.5 weeks
-* **FTE:** 2  
-* **PTE:** 2
+* **FTE:** 1  
+* **PTE:** 1
 * **Costs:** 12,500 USD  
 
 
