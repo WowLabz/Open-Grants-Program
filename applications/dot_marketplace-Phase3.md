@@ -18,7 +18,7 @@ Links To Previous Approved Grants:
 - [Phase 1](https://github.com/w3f/Grants-Program/blob/master/applications/dot_marketplace.md)
 - [Phase 2](https://github.com/w3f/Grants-Program/blob/master/applications/dot_marketplace-phase2.md)
 
-This is phase 3 of Dot Marketplace, which is a general-purpose decentralized marketplace created as a Substrate pallet.
+This is phase 3 & 4 of Dot Marketplace, which is a general-purpose decentralized marketplace created as a Substrate pallet.
 
 - Dot Marketplace can be used by any decentralized project to float tasks and invite their community members to execute them for a reward. Its POC was developed during the Polkadot India Buildathon (2021).
 - It would be directly integrated into Polkadot JS Apps, where such marketplaces could create bounties and tasks that community members could fulfill.
@@ -36,6 +36,8 @@ The current scope of work involves **milestone-based submissions** in which a pr
 - A project reaches completion only if all milestones in the project are completed and approved by the publisher.
 - Since all milestones are independent, they can be completed and approved by the publisher irrespective of the overall project status.
 - Based on the requirements, a publisher can add more milestones to a project even after it is pushed to the market, provided the total number of milestones does not exceed 5 (configurable)
+- Decentralized Strorage using IPFS for string task realated docs.
+- Advanced Search option to search tasks & milestones.
 - The [decentralized court](https://github.com/WowLabz/dot-marketplace-v2) implemented in phase 2 is functional for each milestone of a project
 
 The flow of tasking pallet with milestone based submission 
@@ -143,8 +145,8 @@ Dot Marketplace POC was conceptualized and developed during the Polkadot India h
 ****Overview****
 
 * **Total Estimated Duration:** 3 Weeks
-* **Full-Time Equivalent (FTE): 1.5**  
-* **Total Costs:** 25,000 USD
+* **Full-Time Equivalent (FTE): 2**  
+* **Total Costs:** 30,000 USD
 
 
 ### **Milestone 1**
@@ -191,17 +193,52 @@ In continuation to previous work, this milestone involves the creation of an on-
 | 4 | Website  | Dedicated one-page website for Dot Marketplace. |
 | 5 | Article | Website article showing motivation behind phase 3 of dot marketplace and how to make the best use of it. |
 
+### **Milestone 3**
+
+* **Estimated duration:** 1.0 weeks
+* **FTE:** 1  
+* **PTE:** 1
+* **Costs:** 2,500 USD  
+
+
+The main deliverable in this milestone is to use decentralized IPFS based storages to store all the files realated to tasks.
+
+| Sr no. | Deliverable | Description |
+| --- | --- | --- |
+| 0a | License | Apache 2.0 |
+| 0b | Documentation | We will provide both inline documentation of the code and a tutorial that explains how a user can use DOT Marketplace and understand the flow of tasking pallet. |
+| 0c | Testing Guide | Functions will be covered by unit tests, the documentation will describe how to run these tests. We will also provide scripts to help deploy, run and test the build. |
+| 0d | Docker Image | Docker image of the build |
+| 1 | Decentralized Stroage  | All tasks related docs will be stored on a decentralized IPFS platform |
+| 2 | Frontend App  | Supporting frontend UI to test the aforementioned functionality. |
+| 3 | Website  | Dedicated one-page website for Dot Marketplace. |
+| 4 | Article | Website article showing motivation behind phase 3 of dot marketplace and how to make the best use of it. |
+
+### **Milestone 4**
+
+* **Estimated duration:** 1.0 weeks
+* **FTE:** 1  
+* **PTE:** 1
+* **Costs:** 2,500 USD  
+
+
+The main deliverable in this milestone is to be able to advance search using task progress, tags, tasks or milestone id's.
+
+| Sr no. | Deliverable | Description |
+| --- | --- | --- |
+| 0a | License | Apache 2.0 |
+| 0b | Documentation | We will provide both inline documentation of the code and a tutorial that explains how a user can use DOT Marketplace and understand the flow of tasking pallet. |
+| 0c | Testing Guide | Functions will be covered by unit tests, the documentation will describe how to run these tests. We will also provide scripts to help deploy, run and test the build. |
+| 0d | Docker Image | Docker image of the build |
+| 1 | Advanced Search  | Search based on task progress, tags, tasks or milestone id's. |
+| 2 | Frontend App  | Supporting frontend UI to test the aforementioned functionality. |
+| 3 | Website  | Dedicated one-page website for Dot Marketplace. |
+| 4 | Article | Website article showing motivation behind phase 3 of dot marketplace and how to make the best use of it. |
+
 ### **Additional Project Details**
 
 * Technology stack being used
   * Rust, Substrate, React, Python, centralized cloud storage
-
-### **Future Plans** 
-Future releases of the Dot Marketplace include:
-
-| Phase | Feature | Description |
-| --- | --- | --- |
-| 4 | Decentralized Storage and Advanced Search| Integration with IPFS or another decentralized storage platform. The Advanced search provides a way to filter projects and milestones based on status (open/in progress/closed) and also based on your tags|
 
 ###
 
