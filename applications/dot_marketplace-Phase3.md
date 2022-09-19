@@ -154,7 +154,7 @@ Dot Marketplace POC was conceptualized and developed during the Polkadot India h
 * **Estimated duration:** 1.5 weeks
 * **FTE: 1**  
 * **PTE: 1**  
-* **Costs:** 12,500 USD  
+* **Costs:** 10,000 USD  
 
 The main deliverable for this milestone is to facilitate the creation of a project that can accommodate multiple milestones that may or may not depend on each other.
 
@@ -173,7 +173,7 @@ The main deliverable for this milestone is to facilitate the creation of a proje
 * **Estimated duration:** 1.5 weeks
 * **FTE:** 1  
 * **PTE:** 1
-* **Costs:** 12,500 USD  
+* **Costs:** 10,000 USD  
 
 
 In continuation to previous work, this milestone involves the creation of an on-chain decentralized court to handle dispute resolution. Each milestone can go into a dispute on the same scope as mentioned in the second phase of dot marketplace. The other milestones in a project are not affected by the dispute of one of the milestones.
@@ -198,7 +198,7 @@ In continuation to previous work, this milestone involves the creation of an on-
 * **Estimated duration:** 1.0 weeks
 * **FTE:** 1  
 * **PTE:** 1
-* **Costs:** 2,500 USD  
+* **Costs:** 5,000 USD  
 
 
 The main deliverable in this milestone is to use decentralized IPFS based storages to store all the files realated to tasks.
@@ -219,7 +219,7 @@ The main deliverable in this milestone is to use decentralized IPFS based storag
 * **Estimated duration:** 1.0 weeks
 * **FTE:** 1  
 * **PTE:** 1
-* **Costs:** 2,500 USD  
+* **Costs:** 5,000 USD  
 
 
 The main deliverable in this milestone is to be able to advance search using task progress, tags, tasks or milestone id's.
