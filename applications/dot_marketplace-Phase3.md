@@ -136,14 +136,14 @@ Dot Marketplace POC was conceptualized and developed during the Polkadot India h
 
 ****Overview****
 
-* **Total Estimated Duration:** 3 Weeks
+* **Total Estimated Duration:** 3 Months
 * **Full-Time Equivalent (FTE): 1**  
 * **Total Costs:** 30,000 USD
 
 
 ### **Milestone 1**
 
-* **Estimated duration:** 1.5 weeks
+* **Estimated duration:** 1.5 months
 * **FTE: 1**  
 * **PTE: 1**  
 * **Costs:** 15,000 USD  
@@ -162,7 +162,7 @@ The main deliverable for this milestone is to facilitate the creation of a proje
 
 ### **Milestone 2**
 
-* **Estimated duration:** 1.5 weeks
+* **Estimated duration:** 1.5 months
 * **FTE:** 1  
 * **PTE:** 1
 * **Costs:** 15,000 USD  
