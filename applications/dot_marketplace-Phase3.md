@@ -132,15 +132,15 @@ A list of centralized and decentralised apps published can be found [here](https
 ****Overview****
 
 * **Total Estimated Duration:** 1.5 Months
-* **Full-Time Equivalent (FTE): 1.89**  
-* **Total Costs:** 22,725 USD
+* **Full-Time Equivalent (FTE):** 2.39  
+* **Total Costs:** 29,925 USD
 
 
 ### **Milestone 1**
 
 * **Estimated duration:** 4 weeks
 * **FTE: 1**  
-* **PTE: 1**  
+* **PTE: 2**  
 * **Costs:** 12,725 USD  
 
 The main deliverable for this milestone is to facilitate the creation of a project that can accommodate multiple milestones that may or may not depend on each other.
@@ -159,8 +159,8 @@ The main deliverable for this milestone is to facilitate the creation of a proje
 
 * **Estimated duration:** 2 weeks
 * **FTE:** 1  
-* **PTE:** 1
-* **Costs:** 10,000 USD  
+* **PTE:** 2
+* **Costs:** 9,225 USD  
 
 
 In continuation to previous work, this milestone involves the creation of an on-chain decentralized court to handle dispute resolution. Each milestone can go into a dispute on the same scope as mentioned in the second phase of dot marketplace. The other milestones in a project are not affected by the dispute of one of the milestones.
@@ -177,8 +177,47 @@ In continuation to previous work, this milestone involves the creation of an on-
 | 1c | General Dispute | A general dispute function for cases that do not fall under the categories mentioned in 1a and 1b. |
 | 2 | Voting module | Each juror can review the dispute and cast their vote, which also includes their rating for both the customer and the worker. After two days, all the juror votes are counted, and a winner is identified. |
 | 3 | Frontend App  | Supporting frontend UI to test the aforementioned functionality. |
-| 4 | Website  | Dedicated one-page website for Dot Marketplace. |
-| 5 | Article | Website article showing motivation behind phase 3 of dot marketplace and how to make the best use of it. |
+
+### **Milestone 3**
+
+* **Estimated duration:** 2.0 week
+* **FTE:** 1  
+* **PTE:** 2
+* **Costs:** 5,475 USD  
+
+
+The main deliverable in this milestone is to use decentralized IPFS based storages to store all the files realated to tasks.
+
+| Sr no. | Deliverable | Description |
+| --- | --- | --- |
+| 0a | License | Apache 2.0 |
+| 0b | Documentation | We will provide both inline documentation of the code and a tutorial that explains how a user can use DOT Marketplace and understand the flow of tasking pallet. |
+| 0c | Testing Guide | Functions will be covered by unit tests, the documentation will describe how to run these tests. We will also provide scripts to help deploy, run and test the build. |
+| 0d | Docker Image | Docker image of the build |
+| 1 | Decentralized Stroage  | All tasks related docs will be stored on a decentralized IPFS platform |
+| 2 | Frontend App  | Supporting frontend UI to test the aforementioned functionality. |
+
+### **Milestone 4**
+
+* **Estimated duration:** 1.0 week
+* **FTE:** 1  
+* **PTE:** 2
+* **Costs:** 2,500 USD  
+
+
+The main deliverable in this milestone is to be able to advance search using task progress, tags, tasks or milestone id's.
+
+| Sr no. | Deliverable | Description |
+| --- | --- | --- |
+| 0a | License | Apache 2.0 |
+| 0b | Documentation | We will provide both inline documentation of the code and a tutorial that explains how a user can use DOT Marketplace and understand the flow of tasking pallet. |
+| 0c | Testing Guide | Functions will be covered by unit tests, the documentation will describe how to run these tests. We will also provide scripts to help deploy, run and test the build. |
+| 0d | Docker Image | Docker image of the build |
+| 1 | Advanced Search  | Search based on task progress, tags, tasks or milestone id's. |
+| 2 | Frontend App  | Supporting frontend UI to test the aforementioned functionality. |
+| 3 | Website  | Dedicated one-page website for Dot Marketplace. |
+| 4 | Article | Website article showing motivation behind phase 3 of dot marketplace and how to make the best use of it. |
+
 
 ### **Additional Project Details**
 
