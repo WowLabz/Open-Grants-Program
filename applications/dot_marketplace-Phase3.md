@@ -15,20 +15,19 @@ Links To Previous Approved Grants:
 This is phase 3 of Dot Marketplace, which is a general-purpose decentralized marketplace created as a Substrate pallet.
 
 - Dot Marketplace can be used by any decentralized project to float tasks and invite their community members to execute them for a reward. Its POC was developed during the Polkadot India Buildathon (2021).
-- It would be directly integrated into Polkadot JS Apps, where such marketplaces could create bounties and tasks that community members could fulfill.
-- The inspiration for Dot Marketplace emerged from our own needs while building Yoda - a protocol that facilitates decentralized app development leveraging open data. Dot Marketplace would be used to create data, services, and app marketplaces on Yoda, which would motivate us to maintain this project in the long run.
+- In the previous phases we have built a decentralised bounty platform and a decentralised court for dispute resolution. More details can be found on the respective grant proposals shared above. 
+
 
 ### Project Details
 
 The current scope of work involves **milestone-based submissions** in which a project is divided into multiple configurable milestones(min 1 and max 5) to allow parallel or sequential execution.
 
-- This version of the marketplace handles the project by breaking it into several milestones
 - Each project must have at least one milestone and can have a maximum of five milestones (configurable)
 - Each milestone has its independent bidding system where multiple workers can place their bids
 - The publisher can select a bid as per the requirement and ratings of the worker and other criteria that can be added to a user account.
 - A worker can bid for multiple milestones of a single project based on their expertise.
 - A project reaches completion only if all milestones in the project are completed and approved by the publisher.
-- Since all milestones are independent, they can be completed and approved by the publisher irrespective of the overall project status.
+- In our current implementation all milestones are independent, hence they can be completed and approved by the publisher irrespective of the overall project status.
 - Based on the requirements, a publisher can add more milestones to a project even after it is pushed to the market, provided the total number of milestones does not exceed 5 (configurable)
 - The [decentralized court](https://github.com/WowLabz/dot-marketplace-v2) implemented in phase 2 is functional for each milestone of a project
 
@@ -36,7 +35,6 @@ The flow of tasking pallet with milestone based submission
 
 ![Tasking-Court-Flow4 drawio](https://user-images.githubusercontent.com/66478092/190300655-1d2085b3-b728-4ced-8238-f262a9c5c5f8.png)
 
-Dot Marketplace is being built as a Substrate pallet. It would include boilerplate code that teams can customize as per their requirements. We believe this project has the potential to transform community participation, engagement, and governance in decentralized projects.
 
 ### **Repository Hierarchy**
 
@@ -81,7 +79,7 @@ The current focus is to enhance the existing Substrate pallet and allied code ba
 
 ### **Ecosystem Fit**
 
-We believe this work could be helpful for any Polkadot para-chains/ para-threads interested in including a marketplace with an on-chain dispute resolution mechanism.
+We believe this work could be helpful for any Polkadot para-chains/ para-threads interested in including a marketplace with on-chain dispute resolution.
 
 - Almost all para-chains/ para-threads would find motivation in encouraging their community members to contribute meaningfully to their roadmap. This can be achieved by utilizing a marketplace like Dot Marketplace, where technical, marketing, or governance-centric projects can be published as bounties. And community members are invited to bid for and execute them.
 - A milestone-based submission will enhance the functionality of the marketplace and provide a more comprehensive user experience for both the worker and the publisher.
@@ -94,7 +92,6 @@ We believe this work could be helpful for any Polkadot para-chains/ para-threads
 
 - [**Amit Singh**](https://www.linkedin.com/in/startupamit/) [ Product Manager ]
 - [**Roshit Omanakuttan**](https://www.linkedin.com/in/roshit/) [ Technical Architect ]
-- [**Varun Gyanchandani**](https://www.linkedin.com/in/varunsays/) [ Backend Lead ]
 - [**Loakesh Indiran**](https://www.linkedin.com/in/loakesh-indiran-8a2282140) [ Full Stack Developer ]
 - [**Tejas Gaware**](http://www.linkedin.com/in/tejas-vijay-1430a3190) [ Backend Developer ]
 - [**Rajat Petwal**](https://www.linkedin.com/in/rajat-petwal-947440197/) [ Backend Developer ]
@@ -113,9 +110,9 @@ We believe this work could be helpful for any Polkadot para-chains/ para-threads
 
 ### **Team's experience**
 
-Dot Marketplace is being built by the team at Wow Labz. Wow Labz is one of India's leading turnkey product development companies. Socialli Protocol has been conceptualized and is being produced by the team at Wow Labz. The team has previously built a decentralized storage protocol called Lake Network - [https://lakenetwork.io/](https://lakenetwork.io/) in addition to multiple dApps on Ethereum, Stellar, EOS, and Hyperledger.
+Dot Marketplace is being built by the team at Wow Labz. Wow Labz is one of India's leading turnkey product development companies. The team is also building Socialli - an interoperable metaverse protocol on Polkadot. Additionally the team at Wow Labz has built [Polkadot India](https://www.polkadotindia.org/) - a 15,000+ community of polkadot enthusiasts predominantly from the Indian region. The team has previously built a decentralized storage protocol called Lake Network - [https://lakenetwork.io/](https://lakenetwork.io/) in addition to multiple dApps on Ethereum, Stellar, EOS, and Hyperledger.
 
-A list of centralized apps published can be found [here](https://www.wowlabz.com/work/).
+A list of centralized and decentralised apps published can be found [here](https://www.wowlabz.com/work/).
 
 ### **Team Code Repos**
 
@@ -127,26 +124,24 @@ A list of centralized apps published can be found [here](https://www.wowlabz.com
 
 ## **Development Status 📖**
 
-Dot Marketplace POC was conceptualized and developed during the Polkadot India hackathon. The roadmap listed below comprises new features that would help take the POC to a minimum viable product (MVP). The first stage of the project involved creating a user registration and marketplace based on a bidding system.
-
-- Here's a link to the [approved grant proposal for the first phase](https://github.com/w3f/Grants-Program/blob/master/applications/dot_marketplace.md) and [second phase](https://github.com/w3f/Grants-Program/blob/master/applications/dot_marketplace-phase2.md)
+- Here's a link to the approved grant proposal for the [first phase](https://github.com/w3f/Grants-Program/blob/master/applications/dot_marketplace.md) and [second phase](https://github.com/w3f/Grants-Program/blob/master/applications/dot_marketplace-phase2.md)
 - We are in touch with @takahser and @Rouven from the Web 3 Grants and Treasuries team, respectively.
 
 ## **Development Roadmap** 🔩
 
 ****Overview****
 
-* **Total Estimated Duration:** 2 Months
-* **Full-Time Equivalent (FTE): 1**  
-* **Total Costs:** 30,000 USD
+* **Total Estimated Duration:** 1.5 Months
+* **Full-Time Equivalent (FTE): 1.89**  
+* **Total Costs:** 22,725 USD
 
 
 ### **Milestone 1**
 
-* **Estimated duration:** 1 month
+* **Estimated duration:** 4 weeks
 * **FTE: 1**  
 * **PTE: 1**  
-* **Costs:** 15,000 USD  
+* **Costs:** 12,725 USD  
 
 The main deliverable for this milestone is to facilitate the creation of a project that can accommodate multiple milestones that may or may not depend on each other.
 
@@ -162,10 +157,10 @@ The main deliverable for this milestone is to facilitate the creation of a proje
 
 ### **Milestone 2**
 
-* **Estimated duration:** 1 month
+* **Estimated duration:** 2 weeks
 * **FTE:** 1  
 * **PTE:** 1
-* **Costs:** 15,000 USD  
+* **Costs:** 10,000 USD  
 
 
 In continuation to previous work, this milestone involves the creation of an on-chain decentralized court to handle dispute resolution. Each milestone can go into a dispute on the same scope as mentioned in the second phase of dot marketplace. The other milestones in a project are not affected by the dispute of one of the milestones.
