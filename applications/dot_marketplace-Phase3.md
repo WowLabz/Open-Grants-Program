@@ -131,14 +131,14 @@ A list of centralized and decentralised apps published can be found [here](https
 
 ****Overview****
 
-* **Total Estimated Duration:** 1.5 Months
+* **Total Estimated Duration:** 2.0 Months
 * **Full-Time Equivalent (FTE):** 2.39  
 * **Total Costs:** 29,925 USD
 
 
 ### **Milestone 1**
 
-* **Estimated duration:** 4 weeks
+* **Estimated duration:** 3.0 weeks
 * **FTE: 1**  
 * **PTE: 2**  
 * **Costs:** 12,725 USD  
@@ -157,7 +157,7 @@ The main deliverable for this milestone is to facilitate the creation of a proje
 
 ### **Milestone 2**
 
-* **Estimated duration:** 2 weeks
+* **Estimated duration:** 2.0 weeks
 * **FTE:** 1  
 * **PTE:** 2
 * **Costs:** 9,225 USD  
@@ -180,7 +180,7 @@ In continuation to previous work, this milestone involves the creation of an on-
 
 ### **Milestone 3**
 
-* **Estimated duration:** 2.0 week
+* **Estimated duration:** 2.0 weeks
 * **FTE:** 1  
 * **PTE:** 2
 * **Costs:** 5,475 USD  
